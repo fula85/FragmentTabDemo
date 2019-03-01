@@ -7,4 +7,13 @@
     <string name="txt_btn_spiegelen">Spiegel</string>
     <string name="txt_lbl_naam">Voer je tekst in</string>
     <string name="txt_pref_username">Please provide a username</string>
+    <string name="txt_mi_settings">Settings</string>
+
+
+    <string-array name="fruitlijst">
+        <item>Banaan</item>
+        <item>Appel</item>
+        <item>Meloen</item>
+    </string-array>
+
 </resources>
