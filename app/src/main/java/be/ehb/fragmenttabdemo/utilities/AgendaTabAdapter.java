@@ -23,6 +23,7 @@ public class AgendaTabAdapter extends FragmentPagerAdapter {
         switch (position){
             case 0: return "Deze week";
             case 1: return "Spiegel";
+            case 2: return "Settings";
         }
         return "hackerman"+position;
     }
@@ -34,12 +35,13 @@ public class AgendaTabAdapter extends FragmentPagerAdapter {
                 Random random = new Random();
                 return AgendaFragment.newInstance(random.nextInt(20));
             case 1: return SpiegelFragment.newInstance();
+            case 2: return SettingsFragment.newInstance();
         }
         return null;
     }
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 }
